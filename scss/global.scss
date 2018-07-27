@@ -1,0 +1,54 @@
+// Load Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	// background-color: red;
+}
+
+// Global Variables
+$green:#6AC5B7;
+$black: #292F36;
+$white: #ededed;
+$light-blue: #6fbfe8;
+$orange: #F2A948;
+$dark-orange:#c97200;
+$dark-green:#56afa0;
+
+body{
+    margin:0;
+    padding:0;
+    background-color:  $white;;
+}
+.center{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.reset{
+    margin:0;
+    padding:0;
+}
+
+/* //TOGGLE CLASSES// */
+.toggle-menu{
+    width:80px !important;
+    display:block;
+}
+.toggle-elements{
+    visibility: hidden;
+}
+
+.toggle-logo{
+    display:none;
+}
+.toggle-bar{
+    // padding: 26px 15px 26px 35px !important;
+}
+
+/*CANCEL BUTTON STYLE*/
+.cancel{
+    margin-bottom:10px;
+    color:#292F36;
+    font-weight: bold;
+}
+

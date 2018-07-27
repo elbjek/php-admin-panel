@@ -1,0 +1,16 @@
+.sidenav {
+    height: 100%;
+}
+.logo{
+    background-color: $black;
+    border-bottom: 2px solid rgba(255,255 ,255 , 0.5);
+}
+.logo a:first-of-type{
+    font-size: 30px;
+    font-weight: 900;
+    color:$white;
+}
+.logo a{ 
+    padding:15px 15px 15px 30px;
+    color:$white;
+}

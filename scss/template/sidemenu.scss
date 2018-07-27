@@ -1,0 +1,32 @@
+.sidemenu{
+    background-color:#292F36 ;
+    color:white;
+    height:100vh;
+    overflow: hidden;
+    ul li{
+        padding-left:30px;
+        &:hover>a{
+            text-decoration: none;
+            color:$black;
+            font-weight: 700;
+        }
+        &:hover{
+            background-color: white;
+            cursor: pointer;
+        } 
+        &:hover >i{
+            color:#6AC5B7;
+            cursor: pointer;
+        } 
+        a{
+            padding: 20px 8px 20px 16px;
+            color:$white;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        i{
+            color:$orange;
+        }
+    } 
+
+}

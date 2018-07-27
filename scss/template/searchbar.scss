@@ -1,0 +1,40 @@
+.searchbar{
+    background-color: white;
+    padding:0px 80px;
+    form {
+        .input{
+            border:none;
+            border-radius: 5px;
+            background-color:transparent;
+            font-size: 18px;
+            max-width:500px;
+        }
+        label i{
+            color:$orange;
+            font-size: 20px;
+
+        }
+        input::placeholder{
+            color: #292F36;
+            opacity: 0.6;
+        }
+    }
+    ul{
+        margin:0;
+        padding:23.5px 0px;
+        li{
+            display: inline;
+            margin-left:20px;
+        }
+        a{
+            font-size: 16px;
+            font-weight: bold;
+            color: $black;
+            & :hover{
+                text-decoration: none;
+            
+            }
+        }
+
+    }
+}
